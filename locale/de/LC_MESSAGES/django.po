@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-09 12:07+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\bookmarks\forms.py:66
+msgid "Friend's Name"
+msgstr ""
+
+#: .\bookmarks\forms.py:67
+msgid "Friend's Email"
+msgstr ""
+
+#: .\bookmarks\templates\bookmarks\friend_invite.html:3
+#: .\bookmarks\templates\bookmarks\friend_invite.html:4
+msgid "Invite A Friend"
+msgstr ""
+
+#: .\bookmarks\templates\bookmarks\friend_invite.html:11
+msgid "send invite"
+msgstr ""
+
+#: .\bookmarks\views.py:390
+#, python-format
+msgid "An invitation was sent to %s."
+msgstr ""
+
+#: .\bookmarks\views.py:393
+msgid "There was an error while sending the invitation."
+msgstr ""
+
+#: .\templates\admin\base_site.html:4
+msgid "Django Bookmarks site admin"
+msgstr ""
+
+#: .\templates\admin\base_site.html:6
+msgid "Django Bookmarks administration"
+msgstr ""
+
+
+
+#: templates/polls/index.html:3
+msgid "WelcomeHeading"
+msgstr "Willkommen auf unserer Seite!"
+
+#: templates/polls/index.html:4
+msgid "WelcomeMessage"
+msgstr "Hier findet Ihr Umfragen."

@@ -1,0 +1,22 @@
+{% load comments %}
+{% if user.is_authenticated %}
+<form action="{% comment_form_target %}" method="post">
+    {% csrf_token %}
+<p><label>Post a comment:</label><br />
+    {% for field in form %}
+        {% if field.is_hidden %}
+            <div>{{ field }}</div>
+        {% endif %}
+    {% endfor %}
+<textarea name="comment" rows="10"
+cols="60"></textarea></p>
+<input type="hidden" name="options"
+value="{{ options }}" />
+<input type="hidden" name="target" value="{{ target }}" />
+<input type="hidden" name="gonzo" value="{{ hash }}" />
+<input type="hidden" name="next" value="{% url 'bookmark_page' shared_bookmark.id %}" />
+<input type="submit" name="post" value="submit comment" />
+</form>
+{% else %}
+<p>Please <a href="/login/">log in</a> to post comments.</p>
+{% endif %}
